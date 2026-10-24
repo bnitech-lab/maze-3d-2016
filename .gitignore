@@ -1,0 +1,46 @@
+# Visual Studio build output and caches
+.vs/
+Debug/
+Release/
+x64/
+ipch/
+*.exe
+*.ilk
+*.pdb
+*.idb
+*.tlog
+*.lastbuildstate
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+
+# Third-party libraries and headers, not redistributed here (see README)
+*.dll
+*.lib
+*.def
+glut.h
+GLUT.H
+glaux.h
+GLAux.h
+
+# Models, textures and headers listing the models, left out on purpose (see README)
+*.obj
+*.mtl
+*.bmp
+playerObj.h
+zombieName.h
+
+# Documents are not part of this repository
+*.pdf
+*.ppt
+*.pptx
+*.doc
+*.docx
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
